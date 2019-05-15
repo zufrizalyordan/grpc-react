@@ -5,11 +5,14 @@ gRPC Web (browser) -> envoy proxy -> gRPC backend
 
 ### Installation
 `docker build -t grpc-web ./src`
+
 `yarn`
 
 ### Running the app
 `yarn start` -> starts the frontend app
+
 `node src/server.js` -> starts the backend server
+
 `docker run -d -p 9090:9090 grpc-web` -> starts envoy proxy 
 
 ### Notes
